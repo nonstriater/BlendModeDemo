@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26AC12AC1A3E984700C1236F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12AB1A3E984700C1236F /* main.m */; };
+		26AC12AF1A3E984700C1236F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12AE1A3E984700C1236F /* AppDelegate.m */; };
+		26AC12B21A3E984700C1236F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12B11A3E984700C1236F /* MasterViewController.m */; };
+		26AC12B51A3E984700C1236F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12B41A3E984700C1236F /* DetailViewController.m */; };
+		26AC12B81A3E984700C1236F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AC12B61A3E984700C1236F /* Main.storyboard */; };
+		26AC12BA1A3E984700C1236F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AC12B91A3E984700C1236F /* Images.xcassets */; };
+		26AC12BD1A3E984700C1236F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26AC12BB1A3E984700C1236F /* LaunchScreen.xib */; };
+		26AC12C91A3E984800C1236F /* BlendModeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12C81A3E984800C1236F /* BlendModeDemoTests.m */; };
+		26AC12D61A3EC59500C1236F /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12D41A3EC59500C1236F /* UIImage+Tint.m */; };
+		26AC12DC1A3ECBB600C1236F /* LLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AC12DB1A3ECBB600C1236F /* LLTableViewCell.m */; };
+		26AC12DE1A3ECCE100C1236F /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26AC12DD1A3ECCE100C1236F /* pic.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26AC12C31A3E984700C1236F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26AC129E1A3E984700C1236F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26AC12A51A3E984700C1236F;
+			remoteInfo = BlendModeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26AC12A61A3E984700C1236F /* BlendModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AC12AA1A3E984700C1236F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AC12AB1A3E984700C1236F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26AC12AD1A3E984700C1236F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26AC12AE1A3E984700C1236F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26AC12B01A3E984700C1236F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		26AC12B11A3E984700C1236F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		26AC12B31A3E984700C1236F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		26AC12B41A3E984700C1236F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		26AC12B71A3E984700C1236F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26AC12B91A3E984700C1236F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26AC12BC1A3E984700C1236F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26AC12C21A3E984700C1236F /* BlendModeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendModeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AC12C71A3E984800C1236F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AC12C81A3E984800C1236F /* BlendModeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlendModeDemoTests.m; sourceTree = "<group>"; };
+		26AC12D31A3EC59500C1236F /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		26AC12D41A3EC59500C1236F /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		26AC12DA1A3ECBB600C1236F /* LLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTableViewCell.h; sourceTree = "<group>"; };
+		26AC12DB1A3ECBB600C1236F /* LLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTableViewCell.m; sourceTree = "<group>"; };
+		26AC12DD1A3ECCE100C1236F /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26AC12A31A3E984700C1236F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC12BF1A3E984700C1236F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AC129D1A3E984700C1236F = {
+			isa = PBXGroup;
+			children = (
+				26AC12A81A3E984700C1236F /* BlendModeDemo */,
+				26AC12C51A3E984700C1236F /* BlendModeDemoTests */,
+				26AC12A71A3E984700C1236F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26AC12A71A3E984700C1236F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26AC12A61A3E984700C1236F /* BlendModeDemo.app */,
+				26AC12C21A3E984700C1236F /* BlendModeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26AC12A81A3E984700C1236F /* BlendModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				26AC12DD1A3ECCE100C1236F /* pic.jpg */,
+				26AC12D31A3EC59500C1236F /* UIImage+Tint.h */,
+				26AC12D41A3EC59500C1236F /* UIImage+Tint.m */,
+				26AC12AD1A3E984700C1236F /* AppDelegate.h */,
+				26AC12AE1A3E984700C1236F /* AppDelegate.m */,
+				26AC12B01A3E984700C1236F /* MasterViewController.h */,
+				26AC12B11A3E984700C1236F /* MasterViewController.m */,
+				26AC12DA1A3ECBB600C1236F /* LLTableViewCell.h */,
+				26AC12DB1A3ECBB600C1236F /* LLTableViewCell.m */,
+				26AC12B31A3E984700C1236F /* DetailViewController.h */,
+				26AC12B41A3E984700C1236F /* DetailViewController.m */,
+				26AC12B61A3E984700C1236F /* Main.storyboard */,
+				26AC12B91A3E984700C1236F /* Images.xcassets */,
+				26AC12BB1A3E984700C1236F /* LaunchScreen.xib */,
+				26AC12A91A3E984700C1236F /* Supporting Files */,
+			);
+			path = BlendModeDemo;
+			sourceTree = "<group>";
+		};
+		26AC12A91A3E984700C1236F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26AC12AA1A3E984700C1236F /* Info.plist */,
+				26AC12AB1A3E984700C1236F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26AC12C51A3E984700C1236F /* BlendModeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				26AC12C81A3E984800C1236F /* BlendModeDemoTests.m */,
+				26AC12C61A3E984800C1236F /* Supporting Files */,
+			);
+			path = BlendModeDemoTests;
+			sourceTree = "<group>";
+		};
+		26AC12C61A3E984800C1236F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26AC12C71A3E984800C1236F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26AC12A51A3E984700C1236F /* BlendModeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AC12CC1A3E984800C1236F /* Build configuration list for PBXNativeTarget "BlendModeDemo" */;
+			buildPhases = (
+				26AC12A21A3E984700C1236F /* Sources */,
+				26AC12A31A3E984700C1236F /* Frameworks */,
+				26AC12A41A3E984700C1236F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlendModeDemo;
+			productName = BlendModeDemo;
+			productReference = 26AC12A61A3E984700C1236F /* BlendModeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26AC12C11A3E984700C1236F /* BlendModeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AC12CF1A3E984800C1236F /* Build configuration list for PBXNativeTarget "BlendModeDemoTests" */;
+			buildPhases = (
+				26AC12BE1A3E984700C1236F /* Sources */,
+				26AC12BF1A3E984700C1236F /* Frameworks */,
+				26AC12C01A3E984700C1236F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26AC12C41A3E984700C1236F /* PBXTargetDependency */,
+			);
+			name = BlendModeDemoTests;
+			productName = BlendModeDemoTests;
+			productReference = 26AC12C21A3E984700C1236F /* BlendModeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26AC129E1A3E984700C1236F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nonstriater;
+				TargetAttributes = {
+					26AC12A51A3E984700C1236F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					26AC12C11A3E984700C1236F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 26AC12A51A3E984700C1236F;
+					};
+				};
+			};
+			buildConfigurationList = 26AC12A11A3E984700C1236F /* Build configuration list for PBXProject "BlendModeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26AC129D1A3E984700C1236F;
+			productRefGroup = 26AC12A71A3E984700C1236F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26AC12A51A3E984700C1236F /* BlendModeDemo */,
+				26AC12C11A3E984700C1236F /* BlendModeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26AC12A41A3E984700C1236F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC12B81A3E984700C1236F /* Main.storyboard in Resources */,
+				26AC12DE1A3ECCE100C1236F /* pic.jpg in Resources */,
+				26AC12BD1A3E984700C1236F /* LaunchScreen.xib in Resources */,
+				26AC12BA1A3E984700C1236F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC12C01A3E984700C1236F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26AC12A21A3E984700C1236F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC12D61A3EC59500C1236F /* UIImage+Tint.m in Sources */,
+				26AC12AF1A3E984700C1236F /* AppDelegate.m in Sources */,
+				26AC12B21A3E984700C1236F /* MasterViewController.m in Sources */,
+				26AC12AC1A3E984700C1236F /* main.m in Sources */,
+				26AC12B51A3E984700C1236F /* DetailViewController.m in Sources */,
+				26AC12DC1A3ECBB600C1236F /* LLTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC12BE1A3E984700C1236F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC12C91A3E984800C1236F /* BlendModeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26AC12C41A3E984700C1236F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26AC12A51A3E984700C1236F /* BlendModeDemo */;
+			targetProxy = 26AC12C31A3E984700C1236F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26AC12B61A3E984700C1236F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26AC12B71A3E984700C1236F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26AC12BB1A3E984700C1236F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26AC12BC1A3E984700C1236F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26AC12CA1A3E984800C1236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26AC12CB1A3E984800C1236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26AC12CD1A3E984800C1236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlendModeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26AC12CE1A3E984800C1236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlendModeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26AC12D01A3E984800C1236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlendModeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlendModeDemo.app/BlendModeDemo";
+			};
+			name = Debug;
+		};
+		26AC12D11A3E984800C1236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlendModeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlendModeDemo.app/BlendModeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26AC12A11A3E984700C1236F /* Build configuration list for PBXProject "BlendModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC12CA1A3E984800C1236F /* Debug */,
+				26AC12CB1A3E984800C1236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AC12CC1A3E984800C1236F /* Build configuration list for PBXNativeTarget "BlendModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC12CD1A3E984800C1236F /* Debug */,
+				26AC12CE1A3E984800C1236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26AC12CF1A3E984800C1236F /* Build configuration list for PBXNativeTarget "BlendModeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC12D01A3E984800C1236F /* Debug */,
+				26AC12D11A3E984800C1236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26AC129E1A3E984700C1236F /* Project object */;
+}
